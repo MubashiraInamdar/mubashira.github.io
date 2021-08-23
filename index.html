@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<title>Cyzplamovir</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<style>
+	body{background-color:#ffffff;color:#2e2e2e}
+	.header{border:1px solid;padding:20px;}
+	.title{font-size:3rem;margin:20px 0px}
+	.sub-title{font-size:1.7rem;font-weight:450}
+	form{margin:20px}
+	input,select{margin:5px;font-weight:700;padding:10px;border-radius:5px;}
+	.name{width:48%}
+	.select{width:20%}
+	.address{width:100%}
+	.flex-box{display:flex;justify-content:center;align-items:center;margin-top:100px}
+	.enroll-btn{color:#ffffff;background-color:#bfbfbf;padding:10px 70px;font-weight:500;font-size:1.3rem;border:none}	
+</style>
+</head>
+<body>
+	<header>
+		<div class="container header">
+			<h3>Cyzplamovir</h3>
+		</div>	
+	</header>
+	<section>
+		<div class="container"><img src="koyal-technologies.jpg" class="img-fluid" alt="Cyzplamovir"></div>	
+	</section>
+	<section>
+		<div class="container">
+			<h1 class="title">Get Back to Living</h1>
+			<h4 class="sub-title">Cyzplamovir should be available to everyone who needs it. Can't afford it? Enroll here to see if we can help.</h4>
+		</div>	
+		<div class="container">
+			<form id="form1" action="">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<input type="text" id="fname" name="fname" class="name" placeholder="First name">
+						<input type="text" id="lname" name="lname" class="name" placeholder="Last name">
+						<input type="text" id="addr1" name="addr1" class="address" placeholder="Address 1">
+						<input type="text" id="addr2" name="addr2" class="address" placeholder="Address 2">
+						<input type="text" id="city" name="city" placeholder="City">
+						<select id="state" name="state" class="select">
+							<option value="state" selected>State</option>
+							<option value="state1">state1</option>
+							<option value="state2">state2</option>
+							<option value="state3">state3</option>
+							<option value="state4">state4</option>
+						</select>
+						<input type="text" id="zipcode" name="zipcode" placeholder="Zipcode">
+						<input type="email" id="email" name="email" class="address" placeholder="Email">
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="container flex-box">
+							<div class="row">
+								<div class="col-md-2 col-sm-2 text-right"><img src="https://img.icons8.com/windows/32/000000/lock.png" style="margin-top:10px"/></div>
+								<div class="col-md-10 col-sm-10 text-left"><input type="submit" id="submit" name="submit" value="Enroll" class="enroll-btn"><br>
+								Questions? <a href="#">Talk with us</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>	
+	</section>	
+</body>
+</html>
